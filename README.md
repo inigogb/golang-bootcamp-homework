@@ -31,18 +31,28 @@ To run the tests you must use the command:
 
 ## API Endpoints
 
-### Hello World
-**URL**  `/hello-world`
-**METHOD** `GET`
-**PARAMETERS** `None`
-**RESPONSE** `<String>`
-**CODE** `200`
+### Hello World  
+**URL**  `/hello-world`  
 
-### Check Weather
-**URL**  `/check-weather/:data`
-**METHOD** `GET`
-**PARAMETERS** `lat, lon`
-**RESPONSE** `JSON`
-**SUCCESS CODE** `200`
-**ERROR CODE** `500`
+**METHOD** `GET`  
+
+**PARAMETERS** `None`  
+
+**RESPONSE** `<String>`  
+
+**CODE** `200`  
+
+### Check Weather  
+**URL**  `/check-weather/:data`  
+
+**METHOD** `GET`  
+
+**PARAMETERS** `lat, lon`  
+
+**RESPONSE** `JSON`  
+
+**SUCCESS CODE** `200`  
+
+**ERROR CODE** `500`  
+
 _NOTE:_ Parameters must be JSON format and encoded as a Base64 string
